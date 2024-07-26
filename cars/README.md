@@ -17,8 +17,8 @@ This is a simple voting application for cars built with Node.js, Express, and Mo
 1. Clone the repository:
 
 ```sh
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
+    git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/saurabhkothari/sample-apps.git)
+    cd cars
 ```
 
 2. Install dependencies:
