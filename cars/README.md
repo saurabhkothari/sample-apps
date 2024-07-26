@@ -45,7 +45,7 @@ This is a simple voting application for cars built with Node.js, Express, and Mo
 Navigate to [http://localhost:3000](http://localhost:3000) in your browser.
 Login with `user/user`.
 Vote for your favorite car.
-```
+
 <img width="1510" alt="image" src="https://github.com/user-attachments/assets/44085ad2-60b9-4dbb-9355-48c4dcd26dca">
 
 <img width="1509" alt="image" src="https://github.com/user-attachments/assets/a5f40db1-e33c-4d7f-9429-75ea5083cbda">
