@@ -1,6 +1,4 @@
-Here's the `README.md` file formatted with proper Markdown syntax:
 
-```markdown
 # Cars Voting App
 
 This is a simple voting application for cars built with Node.js, Express, and MongoDB.
@@ -13,14 +11,15 @@ This is a simple voting application for cars built with Node.js, Express, and Mo
 - MongoDB
 - Redis
 
+
 ### Installation
 
 1. Clone the repository:
 
-    ```sh
+```sh
     git clone https://github.com/yourusername/your-repo-name.git
     cd your-repo-name
-    ```
+```
 
 2. Install dependencies:
 
@@ -48,4 +47,3 @@ Login with `user/user`.
 Vote for your favorite car.
 ```
 
-This code block provides a formatted and copyable `README.md` file that includes installation steps, prerequisites, and usage instructions for your Cars Voting App.
