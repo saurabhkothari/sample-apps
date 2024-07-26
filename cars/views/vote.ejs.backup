@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vote - Cars App</title>
+  <link rel="stylesheet" href="/styles/vote.css">
+  <script src="https://cdn.jsdelivr.net/npm/@datadog/browser-rum@latest/bundle/datadog-rum.js"></script>
+</head>
+<body>
+  <script src="/styles/ddrum.js"></script>
+  <div class="vote-container">
+    <h2>Welcome to Cars App</h2>
+    <p>Hello, <%= user %>. Please vote for your favorite car:</p>
+    <form action="/vote" method="POST">
+      <div class="input-group">
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="car" required>
+          <option value="" disabled selected>Select your option</option>
+          <option value="BMW">BMW</option>
+          <option value="Audi">Audi</option>
+          <option value="Mercedes">Mercedes-Benz</option>
+        </select>
+      </div>
+      <button type="submit" class="btn">Vote</button>
+    </form>
+    <br>
+    <h3>Vote Counts:</h3>
+    <ul class="vote-list">
+      <li>BMW: <%= votes.BMW %></li>
+      <li>Audi: <%= votes.Audi %></li>
+      <li>Mercedes-Benz: <%= votes.Mercedes %></li>
+    </ul>
+    <br>
+    <a href="/logout" class="logout-link">Logout</a>
+  </div>
+</body>
+</html>
+

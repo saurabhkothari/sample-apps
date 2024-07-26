@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.vote-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+.car-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.car {
+  text-align: center;
+  background: #eaeaea;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.vote-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.car-image {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.car-image:hover {
+  transform: scale(1.1);
+}
+
+.vote-count {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.vote-summary {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.summary-item {
+  flex: 1;
+  max-width: 200px;
+  text-align: center;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.logout-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.logout-link:hover {
+  text-decoration: underline;
+}
+

@@ -1,0 +1,21 @@
+{
+  "name": "acme",
+  "version": "1.0.0",
+  "description": "amce app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saurabh kothari",
+  "license": "ISC",
+  "dependencies": {
+    "@datadog/browser-rum": "^5.22.0",
+    "dd-trace": "^5.17.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.4.4",
+    "winston": "^3.13.0"
+  }
+}
